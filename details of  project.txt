@@ -1,0 +1,5 @@
+In This project I use virtualbox of oracle, vagrant (automation tool) and its plugins, and git bash.
+
+I use five services Nginx(web server), Apache(application server), RabbitMQ(queueing agent), Mysql, Memcache(DB caching)
+
+First I setup Mysql then download source code and initialize DB, restart Maria DB and starting its firewall and allowing MariDB to access at port 3306 then I setup setups other above mention services and build and deploy code  
